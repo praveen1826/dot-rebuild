@@ -1,0 +1,8 @@
+services:
+  dot-rebuild:
+    build: .
+    image: dot-rebuild:1.0
+    ports:
+      - "3000:3000"
+      - "5000:5000"
+      - "5001:5001"
